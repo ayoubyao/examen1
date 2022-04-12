@@ -1,0 +1,38 @@
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+h3 h4 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -600%);
+    color: black;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+h2 {
+    text-align: left;
+}
+
+.form-inline {
+    background-color: lightgray;
+}
