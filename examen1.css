@@ -8,7 +8,7 @@ h3 h4 {
 }
 
 p {
-    text-align: left;
+    text-align: center;
 }
 
 img {
@@ -27,10 +27,6 @@ img {
 .fakeimg {
     height: 200px;
     background: #aaa;
-}
-
-h2 {
-    text-align: left;
 }
 
 .form-inline {

@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Page événement</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link href="evenement.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">À propos</h4>
+                        <p class="text-muted">L’AAVD regroupe tous les agents de voyages de Dubai : 12 000 personnes qui génèrent un chiffre d’affaires de 5 milliards de dollars. Il s’agit d’une association à but non-lucratif, qui a pour objectif de créer une communauté au
+                            sein de l’industrie et de défendre les droits des agents de voyages tant au sein de l’industrie qu’auprès des autorités gouvernementales. L’AAVQ a pour ambition de mettre en place plusieurs initiatives pour aider ses membres
+                            à agrandir leur réseau, et optimiser leur professionnalisme afin de répondre aux attentes du consommateur d’aujourd’hui.
+                        </p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Menu</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Acceuil</a></li>
+                            <li><a href="#" class="text-white">événement</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/761/761505.png" width="30" height="30" alt="">
+                    <strong> Association Des Agents De voyages</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Dubai calendar</h1>
+                <p class="lead text-muted">Découvrez la ville en participant aux nombreux évènements et festivals incontournables organisés à Dubai..</p>
+                <p>
+                    <strong>filtrer les types d'événements</strong>
+                </p>
+                <a href="#" class="btn btn-secondary my-2">Affaire</a>
+                <a href="#" class="btn btn-primary my-2"> Loisirs</a>
+            </div>
+        </section>
+        <div class="col-sm-10">
+            <div class="row">
+                <div class="dropdown show col-md-3 dateevt">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dates de l'événement
+            </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#"> janvier</a>
+                        <a class="dropdown-item" href="#"> février</a>
+                        <a class="dropdown-item" href="#"> mars</a>
+                    </div>
+                </div>
+                <div class="dropdown show col-md-3">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                catégorie
+            </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Art et culture (2)</a>
+                        <a class="dropdown-item" href="#">Spectacles live (1)</a>
+                        <a class="dropdown-item" href="#">Nourriture et boissons (1)</a>
+                        <a class="dropdown-item" href="#">Sports (4)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="album py-5 bg-light">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="https://www.visitdubai.com/-/media/migration/images/events/d/dcf-2021/dcf-gad-elmaleh-eventorganiser-apr-2021.jpg?rev=bb7fdb365bd44852b205bd9c9c324c40&cx=0.45&cy=0.4&cw=795&ch=595" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">DUBAI COMEDY FESTIVAL</p>
+                                <a href="">
+                                    <h6>Gad Elmaleh : D'ailleurs</h6>
+                                </a>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">20 mai</button>
+
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="https://www.visitdubai.com/-/media/migration/images/events/s/super-sports-night-run-officialwebsite-dec-2020.jpg?rev=20777e485aee41b1bd2eb6f52c3035a4&cx=0.47&cy=0.58&cw=795&ch=595" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">SPORTS</p>
+                                <a href="">
+                                    <h6>Super Sports Night Run</h6>
+                                </a>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">26 avr.</button>
+
+                                    </div>
+                                    <small class="text-muted">2 hrs</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="https://www.visitdubai.com/-/media/migration/images/events/d/dubai-food-festival-bynder-june-2020.jpg?rev=9135e18a598c4214a11219d69dd76522&cx=0.5&cy=0.5&cw=795&ch=595" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">NOURRITURE ET BOISSONS</p>
+                                <a href="">
+                                    <h6>Dubai Food Festival</h6>
+                                </a>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">2 mai </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">15 mai</button>
+                                    </div>
+                                    <small class="text-muted">1 day</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="https://www.visitdubai.com/-/media/dotsite/images/5-0-newsroom/2021/la-perle.jpg?rev=4efd4ac19aa44f108d45f92e0e8b4335&cx=0.5&cy=0.5&cw=795&ch=595" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">SPECTACLES LIVE</p>
+                                <a href="">
+                                    <h6>La Perle par Dragone</h6>
+                                </a>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Multiple days</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">next on 13 avr.</button>
+                                    </div>
+                                    <small class="text-muted">40 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="https://www.visitdubai.com/-/media/migration/images/events/d/downtown-design-eventorganiser-june-2020.jpg?rev=ac0bd1d1611a45369c0137fcd76a03ec&cx=0.35&cy=0.39&cw=795&ch=595" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">ART ET CULTURE</p>
+                                <a href="">
+                                    <h6>Downtown Design</h6>
+                                </a>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">9 nov.</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">12 nov.</button>
+                                    </div>
+                                    <small class="text-muted">2 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="https://www.visitdubai.com/-/media/migration/images/events/d/dp-world-one-eventorganiser-june-2020-copy.jpg?rev=223deae85b4b4f218de72970687952ec&cx=0.36&cy=0.73&cw=795&ch=595" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">SPORTS</p>
+                                <a href="">
+                                    <h6>DP World Tour Championship</h6>
+                                </a>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">17 nov.</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">20 nov.</button>
+                                    </div>
+                                    <small class="text-muted"> 30 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">haut de la page </a>
+            </p>
+            <p>Copyright &copy;2022. Ce site est géré par le Ministère de l'Économie et du Tourisme.</p>
+            <a href="../../">Visiter notre site web</a> ou <a href="../../getting-started/">en savoir plus</a>.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
