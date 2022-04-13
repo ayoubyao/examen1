@@ -32,3 +32,21 @@ img {
 .form-inline {
     background-color: lightgray;
 }
+
+.slider {
+    background-image: url('https://www.w3schools.com/css/img_5terre_wide.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+@media only screen and (max-width: 390px) {
+    .slider {
+        background-image: url('https://www.w3schools.com/css/img_5terre_wide.jpg');
+        background-size: cover;
+        background-position: center;
+        height:200px;
+    }
+}
+
+
